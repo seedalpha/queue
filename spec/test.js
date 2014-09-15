@@ -81,8 +81,11 @@ describe('Queue', function() {
         result = a + b + c;
         next();
       })
-      .done(function(error) {
+      .done(function(error, a, b, c) {
         assert(!error);
+        assert(a === 1);
+        assert(b === 2);
+        assert(c === 3);
         assert(result === 6);
         done();
       });
