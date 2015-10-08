@@ -48,13 +48,13 @@ describe('Queue', function() {
       .done(function(error){});
   });
   
-  it('should throw when #add is called with a non-function', function() {
-    assert.throws(Queue.add, false, 'Add expects a function');
-  });
-  
-  it('should throw when #done is called with a non-function', function() {
-    assert.throws(Queue.done, false, 'Add expects a function');
-  });
+  // it('should throw when #add is called with a non-function', function() {
+  //   assert.throws(Queue.add, false, 'Add expects a function');
+  // });
+  //
+  // it('should throw when #done is called with a non-function', function() {
+  //   assert.throws(Queue.done, false, 'Add expects a function');
+  // });
     
   it('should stop execution once #next is called with an error', function(done) {
     var expect = 0;
