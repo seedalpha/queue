@@ -1,6 +1,6 @@
 {
   "name": "seed-queue",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "FIFO queue for node and browser",
   "main": "lib/queue/index.js",
   "scripts": {
