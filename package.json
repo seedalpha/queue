@@ -1,6 +1,6 @@
 {
-  "name": "seed-queue",
-  "version": "2.1.1",
+  "name": "@seedalpha/queue",
+  "version": "2.1.11",
   "description": "FIFO queue for node and browser",
   "main": "lib/queue/index.js",
   "scripts": {
@@ -28,5 +28,6 @@
     "husky": "^0.6.0",
     "mocha": "^1.21.4",
     "blanket": "^1.1.6"
-  }
+  },
+  "dependencies": []
 }
